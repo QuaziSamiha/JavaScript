@@ -6,7 +6,7 @@ function hello1(){
     return c;
 }
 
-let greetings = hello1();
+let greetings = hello1()
 greetings()
 
 // closure means it returns a function with its environment (lexical environment)
