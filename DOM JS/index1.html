@@ -1,0 +1,19 @@
+<!-- 5 oct, 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoisting in JS</title>
+  </head>
+  <body>
+    <h1 id="demo"></h1>
+
+    <script>
+      x = 2023;
+      element = document.getElementById("demo");
+      element.innerHTML = x + " " + y;
+      var x, y;
+    </script>
+  </body>
+</html>
