@@ -29,7 +29,6 @@ Example
 
 /**
  * Local Scope : Variables declared within a JavaScript function, are LOCAL to the function
- 
  * Example
 // code here can NOT use carName
 function myFunction() {
