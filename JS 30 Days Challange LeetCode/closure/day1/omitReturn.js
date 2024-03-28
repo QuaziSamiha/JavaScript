@@ -9,7 +9,7 @@ For this reason, this way is generally preferred when passing short anonymous fu
 considered a good thing for readability.
 3. Can't be bound to this, super, and arguments or be used as a constructor. These are all complex topics in 
 themselves but the basic takeaway should be that arrow functions are simpler in their feature set. 
-You can read more about these differences here.
+
 The choice of arrow syntax versus function syntax is primarily down to preference and your project's 
 stylistic standards.
  */

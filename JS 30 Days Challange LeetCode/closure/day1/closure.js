@@ -1,8 +1,9 @@
 /**
  * Closures
-An important topic in JavaScript is the concept of closures. When a function is created, 
-it has access to a reference to all the variables declared around it, also known as it's 
-lexical environment. The combination of the function and its enviroment is called a closure. 
+This question is intended as an introduction to closures. In JavaScript, functions have a reference 
+to all variables declared in the same scope as well as any outer scopes. These scopes are known as 
+the function's lexical environment. The combination of the function and it's environment is known 
+as a closure.
 This is a powerful and often used feature of the language.
 
 In this example, createAdder passes the first parameter a and the inner function has access to it. 
